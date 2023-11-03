@@ -69,7 +69,7 @@ def select():
         table += "<tr>"
         for info in player:
             table += "<td>{}</td>".format(info)
-        table += "</tr>
+        table += "</tr>"
     table += "</table>"
     return table
 
